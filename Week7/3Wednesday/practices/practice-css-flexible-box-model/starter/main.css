@@ -8,16 +8,24 @@
     /* Phase 1 */
 
     /* Your code here */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .example2 {
     border: dashed grey 1px;
     border-radius: 16px;
     padding: 16px;
+    font-weight: bold;
 
     /* Phase 2 */
 
     /* Your code here */
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
 }
 
 .example2 > button {
@@ -47,12 +55,19 @@
     /* Phase 3 */
 
     /* Your code here */
+    flex: 0 1 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
 }
 
 .example4 {
     /* Phase 4 - Part 1 of 2 */
 
     /* Your code here */
+    display: flex;
+
 }
 
 .sidebar {
@@ -62,6 +77,10 @@
     /* Phase 4 - Part 2 of 2 */
 
     /* Your code here */
+    flex: 0 0 fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: space-evenly;
 }
 .content-area {
     background-color: #E8EFF0;
